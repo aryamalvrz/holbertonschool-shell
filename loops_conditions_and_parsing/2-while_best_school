@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 #looping a file using only while
-auto counter = 10;
-auto text = "Best School"
-while(counter--) cout << text;
+i=1
+while [ $i -lt 10 ]
+do
+	echo "Best School"
+done 
