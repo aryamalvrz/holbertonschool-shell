@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+auto counter = 10;
+auto text = "Best School"
+while(counter--) cout << text;
