@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #looping a file using only until
-i=0
+i=1
 until [ $i -gt 10 ]
 do
         echo "Best School"
