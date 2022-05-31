@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #looping a file using only while
-while {1..10}
+i=10
+while [ $i -lt 1 ]
 do
 	echo "Best School"
 done 
