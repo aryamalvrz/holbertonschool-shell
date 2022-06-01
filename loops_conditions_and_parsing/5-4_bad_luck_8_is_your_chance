@@ -1,0 +1,18 @@
+1 #!/usr/bin/env bash
+#looping from 1-10 using while, if, elif and else statements
+i=1
+	while [ "$i" -le 10 ]
+	do
+        #echo "Best School"
+		if [ "$i" -eq 4 ];
+		then
+			echo "bad luck"
+
+		if [ "$i" -eq 8 ];
+		then
+        	echo "good luck"
+	else 
+		echo "Best School"
+	fi
+	(( i++ ))
+done 
