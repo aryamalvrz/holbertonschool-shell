@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Display the content of the current directory in a list format where only part of the name after the first dash is displayed. To loop use for, and don't display hidden files.
+for a in *
+	do
+	echo "$a" | cut -f 2- -d '-'
+done
