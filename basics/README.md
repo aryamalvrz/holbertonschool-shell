@@ -1,2 +1,2 @@
 README.md
-PS
+Comandos basicos de Shell.
